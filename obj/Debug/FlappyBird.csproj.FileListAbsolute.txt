@@ -10,3 +10,8 @@ D:\Intern\FlappyBird\FlappyBird\obj\Debug\FlappyBird.csproj.CoreCompileInputs.ca
 D:\Intern\FlappyBird\FlappyBird\obj\Debug\FlappyBird.exe
 D:\Intern\FlappyBird\FlappyBird\obj\Debug\FlappyBird.pdb
 D:\Intern\FlappyBird\FlappyBird\obj\Debug\FlappyBird.start.resources
+D:\Intern\FlappyBird\FlappyBird\bin\Debug\FlappyBird.exe.manifest
+D:\Intern\FlappyBird\FlappyBird\bin\Debug\FlappyBird.application
+D:\Intern\FlappyBird\FlappyBird\obj\Debug\FlappyBird.exe.manifest
+D:\Intern\FlappyBird\FlappyBird\obj\Debug\FlappyBird.application
+D:\Intern\FlappyBird\FlappyBird\obj\Debug\FlappyBird.End.resources

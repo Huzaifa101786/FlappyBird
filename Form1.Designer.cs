@@ -61,9 +61,9 @@
             // ground
             // 
             this.ground.Image = global::FlappyBird.Properties.Resources.ground;
-            this.ground.Location = new System.Drawing.Point(-14, 502);
+            this.ground.Location = new System.Drawing.Point(-15, 642);
             this.ground.Name = "ground";
-            this.ground.Size = new System.Drawing.Size(464, 88);
+            this.ground.Size = new System.Drawing.Size(464, 111);
             this.ground.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ground.TabIndex = 4;
             this.ground.TabStop = false;
@@ -73,7 +73,7 @@
             this.pipe_up.Image = global::FlappyBird.Properties.Resources.pipedown;
             this.pipe_up.Location = new System.Drawing.Point(362, -58);
             this.pipe_up.Name = "pipe_up";
-            this.pipe_up.Size = new System.Drawing.Size(75, 216);
+            this.pipe_up.Size = new System.Drawing.Size(75, 277);
             this.pipe_up.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pipe_up.TabIndex = 3;
             this.pipe_up.TabStop = false;
@@ -81,9 +81,9 @@
             // pipe_down
             // 
             this.pipe_down.Image = global::FlappyBird.Properties.Resources.pipe;
-            this.pipe_down.Location = new System.Drawing.Point(195, 309);
+            this.pipe_down.Location = new System.Drawing.Point(211, 413);
             this.pipe_down.Name = "pipe_down";
-            this.pipe_down.Size = new System.Drawing.Size(75, 203);
+            this.pipe_down.Size = new System.Drawing.Size(75, 236);
             this.pipe_down.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pipe_down.TabIndex = 2;
             this.pipe_down.TabStop = false;
@@ -102,7 +102,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PowderBlue;
-            this.ClientSize = new System.Drawing.Size(439, 582);
+            this.ClientSize = new System.Drawing.Size(439, 743);
             this.Controls.Add(this.ground);
             this.Controls.Add(this.pipe_up);
             this.Controls.Add(this.pipe_down);

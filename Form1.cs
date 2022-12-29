@@ -41,24 +41,34 @@ namespace FlappyBird
             
             if(pipe_down.Left < -150)
             {
-                pipe_down.Left = 600;
+              
+                    pipe_down.Left = 600;
+                
                 score++;
             }
 
             if (pipe_up.Left < -100)
             {
-                pipe_up.Left = 850;
+                
+        
+                    pipe_up.Left = 850;
+                
                 score++;
             }
             if (bird.Bounds.IntersectsWith(pipe_down.Bounds) || bird.Bounds.IntersectsWith(pipe_up.Bounds) || bird.Bounds.IntersectsWith(ground.Bounds))
             {
-                endgame();  
+                endgame();
+                this.Hide();
                 
+                End end = new End();
+                end.Show();
+
             }
         }
         private void endgame()
         {
             game_timer.Stop();
+
             
         }
 
@@ -66,7 +76,7 @@ namespace FlappyBird
         {
             if (e.KeyCode == Keys.Space)
             {
-                gravity= -7;
+                gravity= -9;
             }
 
         }
